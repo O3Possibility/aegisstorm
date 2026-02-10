@@ -1,0 +1,43 @@
+🚀 HURRICANE CONSTRAINT TRACKER - SETUP INSTRUCTIONS
+
+STEP 1: Upload Main Files
+--------------------------
+1. Go to your GitHub repository
+2. Click "Add file" → "Upload files"
+3. Drag these folders/files:
+   - scripts/
+   - data/
+   - docs/
+   - github-workflows/
+   - requirements.txt
+   - README.md
+   - DEPLOYMENT.md
+4. Commit changes
+
+STEP 2: Create Workflow File (IMPORTANT!)
+-----------------------------------------
+The github-workflows/ folder won't become .github/ automatically.
+You MUST manually create the workflow:
+
+1. Click "Add file" → "Create new file"
+2. Type filename: .github/workflows/update-analysis.yml
+3. Copy ALL text from: github-workflows/update-analysis.yml
+4. Paste into editor
+5. Commit
+
+STEP 3: Enable Pages
+--------------------
+Settings → Pages → Deploy from /docs on main branch → Save
+
+STEP 4: Enable Actions
+----------------------
+Actions tab → Enable workflows
+
+STEP 5: Run Workflow
+--------------------
+Actions → Hurricane Constraint Analysis → Run workflow
+
+DONE! Your site will be at:
+https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
+
+Updates automatically every 6 hours.
