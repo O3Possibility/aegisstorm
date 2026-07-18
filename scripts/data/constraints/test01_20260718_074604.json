@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-07-18T07:46:04.841708",
+  "storm_id": "test01",
+  "storm_name": "TEST_STORM",
+  "nhc_advisory": {
+    "advisory_number": 1,
+    "advisory_time": "2026-07-18T07:46:04.841161",
+    "classification": "HURRICANE",
+    "intensity_kt": 95.0,
+    "pressure_mb": 965.0,
+    "position": {
+      "lat": 26.5,
+      "lon": -82.0
+    },
+    "movement": "NW 12 kt"
+  },
+  "environmental": {
+    "sst_celsius": 27.5,
+    "wind_shear_kt": 11.9,
+    "potential_intensity_kt": 91.8,
+    "source": "estimated_climatology"
+  },
+  "constraints": {
+    "indicative_I": 0.05,
+    "relational_R": 0.669,
+    "semantic_S": 0.67325,
+    "admissibility_L": 0.0225202125,
+    "rates": {
+      "dI_dt": 0.0,
+      "dR_dt": 0.0,
+      "dS_dt": 0.0,
+      "dL_dt": 0.0
+    },
+    "gradient_hazard": false,
+    "refusal_risk": "CRITICAL",
+    "regime": "PEAK_LIMITED",
+    "summary": "Very limited headroom, moderately favorable environment, moderately organized. Regime: PEAK_LIMITED"
+  },
+  "diagnostic_insight": {
+    "nhc_summary": "HURRICANE with 95 kt winds (965 mb), moving NW at 12 kt.",
+    "constraint_summary": "Very limited headroom, moderately favorable environment, moderately organized. Regime: PEAK_LIMITED",
+    "comparative_insight": "Storm at 103% of thermodynamic ceiling (PI=92 kt) - limited upside potential. Approaching thermodynamic limits - peak intensity likely within 12-24 hours.",
+    "forecast_implication": "Limited intensification potential beyond current state. Peak intensity likely near current levels.",
+    "confidence": 0.75,
+    "thermodynamic_ceiling_pct": 103.48583877995642,
+    "time_to_peak_estimate": "within 12-24 hours",
+    "structural_trend": "stable"
+  }
+}
